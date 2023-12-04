@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1500px;
+    width: 100%;
+}
+
+header  {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.logo {
+    background-color: #3079AB;
+    flex-basis: 18.5%;
+}
+
+.logo img {
+    width: 35%;
+    margin: 1% 28%;
+}
+
+.name_admin {
+    color: #fff;
+    background-color: #43a0e2;
+    height: auto;
+    padding-left: 36.5%;
+    flex-basis: 45%;
+}
+
+.name_admin h1 {
+    margin: 15px 0;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    flex-basis: 18.5%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.silenav {
+    width: 1000px;
+}
+
+.right {
+    flex-basis: 81.5%;
+    background-color: bisque;
+}
+
